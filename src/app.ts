@@ -6,7 +6,7 @@ const app:Application = express();
 
 
 app.get('/',(req: Request, res: Response)=>{
-    throw Error ('server issue') 
+    // throw Error ('server issue') 
     res.send('ok')
 })
 app.use(errorHandler)
