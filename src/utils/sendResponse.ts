@@ -8,3 +8,4 @@ const sendResponse = <T>(res: Response, {message, data, error}: {message: unknow
     })
 }
 
+export default sendResponse
