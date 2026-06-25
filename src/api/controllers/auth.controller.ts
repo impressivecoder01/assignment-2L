@@ -11,3 +11,7 @@ export const signup = async (req: Request, res: Response) => {
     }
     sendResponse(res, {message: "User registered successfully",  data: user}, 201)
 }
+export const login = async (req: Request, res: Response) => {
+    // const {name, email, password, role} = req.body
+    
+}
